@@ -64,3 +64,38 @@ form.addEventListener("submit", async (e) =>{
 
 
 
+//funcion para iniciar sesion si ya esta registrado 
+
+//traer datos 
+const loginForm = document.getElementById('loginForm');
+//creamos un evento para cuando el usuario pide iniciar sesion
+loginForm.addEventListener('submit', async (e) =>{
+    //evita que la pagina se recarge por el envio 
+    e.preventDefault();
+    //se traen los datos del usuario y verificamos que el valor sea valido 
+    const emai = document.getElementById('emai').value;
+    const passw = document.getElementById('passw').value;
+
+    try{
+        // traigo los datos de el servidor mediante fetch
+        const response = await fetch('http://localhost:3000/posts');
+        const users = await response.json();
+        alert(user)
+//verificamos que los datos coincidan con el usuario registrado 
+        const user = users.find((u) => u.email === emai && u.password === passw);
+        
+        console.log(user)
+        //le damos el acceso despues de verificar que si sea el usuario correcto 
+        if(user){
+            alert('inicio de sesion exitoso');
+            return user;
+            //si no cumple lo regresamos 
+        }else{
+            alert('Credenciales incorrectos');
+        }
+
+    }catch(error){
+        console.error('Error al iniciar sesion:', error);
+        return { error: 'Error interno del servidor' };
+    }
+});

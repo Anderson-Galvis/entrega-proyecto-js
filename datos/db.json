@@ -1,14 +1,14 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "nameUser": "primer cliente",
       "phone": "3154443209",
       "email": "andess1234@gmail.com",
       "password": ""
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "segundo cliente",
       "phone": "3154445459",
       "email": "andess14458@gmail.com",
@@ -18,18 +18,36 @@
       "nameUser": "jnnnnn",
       "emailUser": "stiven.g2031@gmail.com",
       "password": "dsddddddddddddd",
-      "id": 2
+      "id": "2"
     },
     {
       "nameUser": "dddsssss",
       "emailUser": "stiven.g2031@gmail.com",
       "password": "ddddddddddd",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "e703",
+      "nameUser": "anderson",
+      "emailUser": "ssss@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "1f61",
+      "nameUser": "anderson",
+      "emailUser": "ssss@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "e0f6",
+      "nameUser": "anderson",
+      "emailUser": "ssss@gmail.com",
+      "password": "qwwwewewew"
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "body": "some comment",
       "postId": 1
     }
