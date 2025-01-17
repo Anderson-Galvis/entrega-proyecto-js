@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto js</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="p-3">
+        <ul class="flex justify-end space-x-16 p-2 m-1">
+            <a href="">contacto</a>
+            <a href="">Reservas</a>
+        </ul>
+
+    </header>
+
+    <main class="p-4">
+        <form action="" method="post" id="form" class="h-44 w-80 border-black">
+            <div class="form mb-4">
+                <h1 class="text-center font-thin ">Reciba Descuentos </h1>
+                <div class="grupo mb-4">
+                    <input type="text" id="name" required placeholder="Nombre"><span class="barra"></span>
+                </div>
+                <div class="grupo mb-4">
+                    <input type="email" id="email" placeholder="Email" required><span class="barra"></span>
+                </div>
+                <div class="grupo mb-4">
+                    <input type="number" id="celular" placeholder="Numero de telefono" required><span class="barra"></span>
+                </div>
+                <div class="comentarios mb-4">
+                    <textarea name="" id="" cols="23" rows="4" placeholder="Escriba su comentarios en este espacio"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="bg-blue-500 text-white p-2 rounded">Enviar</button>
+                </div>
+        </form>
+        
+        <section class="mt-8">
+            <h2>prueba</h2>
+
+            <div class="cajaContacto flex" >
+                <div class="">
+                    <p>contactenos</p>
+                </div>
+
+            </div>
+            <div class="flex  space-x-4">
+                <div class="border border-black rounded-lg p-10 flex-auto">
+                    <!-- Contenido del contenedor -->
+                    <h1>Contenedor con borde redondeado</h1>
+                    <p>Este contenedor tiene bordes redondeados y un borde negro.</p>
+                </div>  
+
+                <div class="border border-black rounded-lg p-10 flex-auto ">
+                    <!-- Contenido del contenedor -->
+                    <h1>Contenedor con borde redondeado</h1>
+                    <p>Este contenedor tiene bordes redondeados y un borde negro.</p>
+                </div> 
+
+                <div class="border border-black rounded-lg p-10 space- flex-auto" >
+                    <!-- Contenido del contenedor -->
+                    <h1>Contenedor con borde redondeado</h1>
+                    <p>Este contenedor tiene bordes redondeados y un borde negro.</p>
+                </div>  
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

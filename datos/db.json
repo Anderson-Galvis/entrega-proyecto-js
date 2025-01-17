@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nameUser": "primer cliente",
+      "phone": "3154443209",
+      "email": "andess1234@gmail.com",
+      "password": ""
+    },
+    {
+      "id": 1,
+      "name": "segundo cliente",
+      "phone": "3154445459",
+      "email": "andess14458@gmail.com",
+      "integrantes": "2"
+    },
+    {
+      "nameUser": "jnnnnn",
+      "emailUser": "stiven.g2031@gmail.com",
+      "password": "dsddddddddddddd",
+      "id": 2
+    },
+    {
+      "nameUser": "dddsssss",
+      "emailUser": "stiven.g2031@gmail.com",
+      "password": "ddddddddddd",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
